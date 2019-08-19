@@ -1,0 +1,729 @@
+{
+  "id": "6b96829d-6135-4cb5-bb87-324139a4001f",
+  "version": "2.0",
+  "name": "Census",
+  "url": "https://eishealth--dev--c.cs115.visual.force.com/apex/Census",
+  "tests": [{
+    "id": "20d676eb-9632-4e8c-b6a1-cf2c247920b2",
+    "name": "Census",
+    "commands": [{
+      "id": "7e4249e7-e376-4743-9819-220863ce6e0b",
+      "comment": "",
+      "command": "open",
+      "target": "https://dev-cesphn.cs115.force.com/apex/servicedirectory",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2f57349-51ee-4299-ae0b-210c76f3c01f",
+      "comment": "",
+      "command": "click",
+      "target": "id=Business Name",
+      "targets": [
+        ["id=Business Name", "id"],
+        ["name=Business Name", "name"],
+        ["css=#Business\\ Name", "css:finder"],
+        ["xpath=//input[@id='Business Name']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step/div/form/ng-transclude/fieldset/div/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a496be56-c178-41f1-8191-51164f085048",
+      "comment": "",
+      "command": "type",
+      "target": "id=Business Name",
+      "targets": [],
+      "value": "Selenium"
+    }, {
+      "id": "eca16993-20ef-4d0d-bf37-07ca70e8121a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.c-google-address-autocomplete > #address",
+      "targets": [
+        ["css=.c-google-address-autocomplete > #address", "css:finder"],
+        ["xpath=//input[@id='address']", "xpath:attributes"],
+        ["xpath=//google-autocomplete[@id='address']/div/input", "xpath:idRelative"],
+        ["xpath=//google-autocomplete/div/input", "xpath:position"]
+      ],
+      "value": "ggd"
+    }, {
+      "id": "f7482d54-97e8-4548-a3d9-e40626b38d00",
+      "comment": "",
+      "command": "type",
+      "target": "id=Suburb",
+      "targets": [
+        ["id=Suburb", "id"],
+        ["name=Suburb", "name"],
+        ["css=#Suburb", "css:finder"],
+        ["xpath=//input[@id='Suburb']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step/div/form/ng-transclude/fieldset/div[4]/div[2]/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "mel"
+    }, {
+      "id": "ad799a33-46e5-4590-96f0-fc123bc5eddd",
+      "comment": "",
+      "command": "type",
+      "target": "id=State",
+      "targets": [
+        ["id=State", "id"],
+        ["name=State", "name"],
+        ["css=#State", "css:finder"],
+        ["xpath=//input[@id='State']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step/div/form/ng-transclude/fieldset/div[5]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "NT"
+    }, {
+      "id": "af2b89e8-a71e-4bb5-96e7-b228effb412f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Postcode",
+      "targets": [
+        ["id=Postcode", "id"],
+        ["name=Postcode", "name"],
+        ["css=#Postcode", "css:finder"],
+        ["xpath=//input[@id='Postcode']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step/div/form/ng-transclude/fieldset/div[5]/div[2]/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123355677899"
+    }, {
+      "id": "67235dfa-969b-4f2e-81d5-4db31faf408f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-invalid > ng-transclude .row:nth-child(2)",
+      "targets": [
+        ["css=.ng-invalid > ng-transclude .row:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step/div/form/ng-transclude/fieldset/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2797d343-8622-4482-b958-4d46fa4dbc52",
+      "comment": "",
+      "command": "type",
+      "target": "id=Business Email",
+      "targets": [
+        ["id=Business Email", "id"],
+        ["name=Business Email", "name"],
+        ["css=#Business\\ Email", "css:finder"],
+        ["xpath=//input[@id='Business Email']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step/div/form/ng-transclude/fieldset/div/div[2]/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "developer+selenium@vertic.com.au"
+    }, {
+      "id": "3b677a8f-860d-46c2-9d93-89f029a78b76",
+      "comment": "",
+      "command": "click",
+      "target": "id=Street",
+      "targets": [
+        ["id=Street", "id"],
+        ["name=Street", "name"],
+        ["css=#Street", "css:finder"],
+        ["xpath=//input[@id='Street']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step/div/form/ng-transclude/fieldset/div[4]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32b240c9-c195-4082-bd17-1fd80971b47e",
+      "comment": "",
+      "command": "type",
+      "target": "id=Street",
+      "targets": [
+        ["id=Street", "id"],
+        ["name=Street", "name"],
+        ["css=#Street", "css:finder"],
+        ["xpath=//input[@id='Street']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step/div/form/ng-transclude/fieldset/div[4]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "ggd"
+    }, {
+      "id": "57475ca7-e740-48ec-a6a1-caf18983946d",
+      "comment": "",
+      "command": "type",
+      "target": "id=Business Phone",
+      "targets": [
+        ["id=Business Phone", "id"],
+        ["name=Business Phone", "name"],
+        ["css=#Business\\ Phone", "css:finder"],
+        ["xpath=//input[@id='Business Phone']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step/div/form/ng-transclude/fieldset/div[2]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "1237329204"
+    }, {
+      "id": "f8987fba-0e00-40a8-90ca-36497644e32f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wizard-btn",
+      "targets": [
+        ["css=.wizard-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[4]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8722ea69-50e0-44d4-b062-ae83e9670a04",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ce4eb29-510a-42b9-8d41-534315454e96",
+      "comment": "",
+      "command": "click",
+      "target": "id=Disability Access",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb0e4229-ecfd-40b1-8bd5-4ade53e73893",
+      "comment": "",
+      "command": "select",
+      "target": "id=Disability Access",
+      "targets": [],
+      "value": "Braille Signage"
+    }, {
+      "id": "873bba2d-13f9-49d6-a8e9-e332f4eadabd",
+      "comment": "",
+      "command": "click",
+      "target": "id=Public Transport",
+      "targets": [
+        ["id=Public Transport", "id"],
+        ["name=Public Transport", "name"],
+        ["css=#Public\\ Transport", "css:finder"],
+        ["xpath=//select[@id='Public Transport']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[2]/div/form/ng-transclude/fieldset/div/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7be109a-53ca-4462-abf6-3a2d6888998a",
+      "comment": "",
+      "command": "select",
+      "target": "id=Public Transport",
+      "targets": [],
+      "value": "Yes"
+    }, {
+      "id": "0c1a7369-30ac-473f-a0ce-c08661980480",
+      "comment": "",
+      "command": "click",
+      "target": "id=Clinical Software",
+      "targets": [
+        ["id=Clinical Software", "id"],
+        ["name=Clinical Software", "name"],
+        ["css=#Clinical\\ Software", "css:finder"],
+        ["xpath=//select[@id='Clinical Software']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[2]/div/form/ng-transclude/fieldset/div[2]/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c5f8fcd-a57e-49db-b79f-0dc54c71439a",
+      "comment": "",
+      "command": "select",
+      "target": "id=Clinical Software",
+      "targets": [],
+      "value": "Dental 4 Windows"
+    }, {
+      "id": "098137ba-871c-439e-99df-0bdcd1779d35",
+      "comment": "",
+      "command": "click",
+      "target": "id=Pharmacy Software",
+      "targets": [
+        ["id=Pharmacy Software", "id"],
+        ["name=Pharmacy Software", "name"],
+        ["css=#Pharmacy\\ Software", "css:finder"],
+        ["xpath=//select[@id='Pharmacy Software']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[2]/div/form/ng-transclude/fieldset/div[2]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceb8688b-7432-41bc-98fa-288a18e39ca1",
+      "comment": "",
+      "command": "select",
+      "target": "id=Pharmacy Software",
+      "targets": [],
+      "value": "MyPractice"
+    }, {
+      "id": "2c96743b-584c-49d9-bfb8-692861887d98",
+      "comment": "",
+      "command": "click",
+      "target": "id=Secure Messaging Solution",
+      "targets": [
+        ["id=Secure Messaging Solution", "id"],
+        ["name=Secure Messaging Solution", "name"],
+        ["css=#Secure\\ Messaging\\ Solution", "css:finder"],
+        ["xpath=//select[@id='Secure Messaging Solution']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[2]/div/form/ng-transclude/fieldset/div[3]/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54718251-fe31-49d5-8414-94ed95eaaa67",
+      "comment": "",
+      "command": "select",
+      "target": "id=Secure Messaging Solution",
+      "targets": [],
+      "value": "MD Exhange"
+    }, {
+      "id": "cd7e49c7-ccb3-4e38-994b-71e37c803408",
+      "comment": "",
+      "command": "click",
+      "target": "id=Electronic Prescription Software",
+      "targets": [
+        ["id=Electronic Prescription Software", "id"],
+        ["name=Electronic Prescription Software", "name"],
+        ["css=#Electronic\\ Prescription\\ Software", "css:finder"],
+        ["xpath=//select[@id='Electronic Prescription Software']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[2]/div/form/ng-transclude/fieldset/div[3]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e1527a-ed37-42ae-9f82-a3d8cf653622",
+      "comment": "",
+      "command": "select",
+      "target": "id=Electronic Prescription Software",
+      "targets": [],
+      "value": "eRX"
+    }, {
+      "id": "4f0a9bfc-21e5-4816-b99b-dca1177e9b94",
+      "comment": "",
+      "command": "click",
+      "target": "id=Health Provider Identifier Organisation",
+      "targets": [
+        ["id=Health Provider Identifier Organisation", "id"],
+        ["name=Health Provider Identifier Organisation", "name"],
+        ["css=#Health\\ Provider\\ Identifier\\ Organisation", "css:finder"],
+        ["xpath=//input[@id='Health Provider Identifier Organisation']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[2]/div/form/ng-transclude/fieldset/div[4]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//wizard-step[2]/div/form/ng-transclude/fieldset/div[4]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d60a4ff-616f-427f-b5c7-e0572974eef2",
+      "comment": "",
+      "command": "type",
+      "target": "id=Health Provider Identifier Organisation",
+      "targets": [
+        ["id=Health Provider Identifier Organisation", "id"],
+        ["name=Health Provider Identifier Organisation", "name"],
+        ["css=#Health\\ Provider\\ Identifier\\ Organisation", "css:finder"],
+        ["xpath=//input[@id='Health Provider Identifier Organisation']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[2]/div/form/ng-transclude/fieldset/div[4]/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//wizard-step[2]/div/form/ng-transclude/fieldset/div[4]/div/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "selenium1"
+    }, {
+      "id": "b0d92c6a-310c-4ad6-a3b7-5f6d5f19ebe0",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99674c11-5f66-4a27-8d43-f15cf24a17c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wizard-btn-next",
+      "targets": [
+        ["css=.wizard-btn-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[4]/form/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e00bbcce-cca6-4a38-b19e-add34b7b0b88",
+      "comment": "",
+      "command": "click",
+      "target": "id=Corporate Practice",
+      "targets": [
+        ["id=Corporate Practice", "id"],
+        ["name=Corporate Practice", "name"],
+        ["css=#Corporate\\ Practice", "css:finder"],
+        ["xpath=//select[@id='Corporate Practice']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//wizard-step[3]/div/form/ng-transclude/fieldset/div/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf547d7d-1fd5-4065-88e7-e6da60bd1791",
+      "comment": "",
+      "command": "select",
+      "target": "id=Corporate Practice",
+      "targets": [],
+      "value": "Yes"
+    }, {
+      "id": "0e992430-cb12-45cc-bd4e-be3024119f8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=PIPs Claimed",
+      "targets": [
+        ["id=PIPs Claimed", "id"],
+        ["name=PIPs Claimed", "name"],
+        ["css=#PIPs\\ Claimed", "css:finder"],
+        ["xpath=//select[@id='PIPs Claimed']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//wizard-step[3]/div/form/ng-transclude/fieldset/div/div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e02785b-b6d5-4dbd-bf38-1f1bd1767433",
+      "comment": "",
+      "command": "select",
+      "target": "id=PIPs Claimed",
+      "targets": [],
+      "value": "Aged Care Access Initiative"
+    }, {
+      "id": "3089ad58-771e-4c35-92eb-c58549fd759a",
+      "comment": "",
+      "command": "click",
+      "target": "id=PIPs Incentive Level",
+      "targets": [
+        ["id=PIPs Incentive Level", "id"],
+        ["name=PIPs Incentive Level", "name"],
+        ["css=#PIPs\\ Incentive\\ Level", "css:finder"],
+        ["xpath=//select[@id='PIPs Incentive Level']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[2]/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//wizard-step[3]/div/form/ng-transclude/fieldset/div[2]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9491e8cd-f2a0-46e1-8f1d-17ce28c74eb7",
+      "comment": "",
+      "command": "select",
+      "target": "id=PIPs Incentive Level",
+      "targets": [],
+      "value": "Asthma"
+    }, {
+      "id": "368559de-2d71-4c4e-a459-2da2458bc6c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=SIPs Claimed",
+      "targets": [
+        ["id=SIPs Claimed", "id"],
+        ["name=SIPs Claimed", "name"],
+        ["css=#SIPs\\ Claimed", "css:finder"],
+        ["xpath=//select[@id='SIPs Claimed']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[2]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//wizard-step[3]/div/form/ng-transclude/fieldset/div[2]/div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5187f3c-8cbc-48fe-8f72-9ddb4ef118dc",
+      "comment": "",
+      "command": "select",
+      "target": "id=SIPs Claimed",
+      "targets": [],
+      "value": "Cervical Screening"
+    }, {
+      "id": "2a7b6bec-4c8c-469a-aab6-1183f7b44ba1",
+      "comment": "",
+      "command": "click",
+      "target": "id=Recall Patients for Health Assessments",
+      "targets": [
+        ["id=Recall Patients for Health Assessments", "id"],
+        ["name=Recall Patients for Health Assessments", "name"],
+        ["css=#Recall\\ Patients\\ for\\ Health\\ Assessments", "css:finder"],
+        ["xpath=//select[@id='Recall Patients for Health Assessments']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[3]/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//wizard-step[3]/div/form/ng-transclude/fieldset/div[3]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b2d09b5-9fca-4359-8d79-7c9b5d583870",
+      "comment": "",
+      "command": "select",
+      "target": "id=Recall Patients for Health Assessments",
+      "targets": [],
+      "value": "No"
+    }, {
+      "id": "63981f91-8dfa-45c5-8d3c-9faa7beae90d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Provide Training for Nursing Students",
+      "targets": [
+        ["id=Provide Training for Nursing Students", "id"],
+        ["name=Provide Training for Nursing Students", "name"],
+        ["css=#Provide\\ Training\\ for\\ Nursing\\ Students", "css:finder"],
+        ["xpath=//select[@id='Provide Training for Nursing Students']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[3]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//wizard-step[3]/div/form/ng-transclude/fieldset/div[3]/div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2d1117c-0501-44ff-8c74-f066893f598a",
+      "comment": "",
+      "command": "select",
+      "target": "id=Provide Training for Nursing Students",
+      "targets": [],
+      "value": "Yes"
+    }, {
+      "id": "66262e42-e0f9-4d43-8296-af9a81783493",
+      "comment": "",
+      "command": "click",
+      "target": "id=Provide Training for GP Registrars",
+      "targets": [
+        ["id=Provide Training for GP Registrars", "id"],
+        ["name=Provide Training for GP Registrars", "name"],
+        ["css=#Provide\\ Training\\ for\\ GP\\ Registrars", "css:finder"],
+        ["xpath=//select[@id='Provide Training for GP Registrars']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[4]/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e6fcc65-924b-480f-a5a5-fe76433f71d8",
+      "comment": "",
+      "command": "select",
+      "target": "id=Provide Training for GP Registrars",
+      "targets": [],
+      "value": "Yes"
+    }, {
+      "id": "6d1e24bb-7d80-4426-bef9-52de964eeb56",
+      "comment": "",
+      "command": "click",
+      "target": "id=Training for Medical Students",
+      "targets": [
+        ["id=Training for Medical Students", "id"],
+        ["name=Training for Medical Students", "name"],
+        ["css=#Training\\ for\\ Medical\\ Students", "css:finder"],
+        ["xpath=//select[@id='Training for Medical Students']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[4]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7e18194-ac7e-440e-8770-7ba39a979b38",
+      "comment": "",
+      "command": "select",
+      "target": "id=Training for Medical Students",
+      "targets": [],
+      "value": "Yes"
+    }, {
+      "id": "3b4a265a-763a-4f96-9435-e145ca5daf38",
+      "comment": "",
+      "command": "click",
+      "target": "id=Recall or Reminder System",
+      "targets": [
+        ["id=Recall or Reminder System", "id"],
+        ["name=Recall or Reminder System", "name"],
+        ["css=#Recall\\ or\\ Reminder\\ System", "css:finder"],
+        ["xpath=//select[@id='Recall or Reminder System']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[5]/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4a0a14d-8f1a-4843-89f7-35ece9b178e7",
+      "comment": "",
+      "command": "select",
+      "target": "id=Recall or Reminder System",
+      "targets": [],
+      "value": "Breast Cancer Screening"
+    }, {
+      "id": "96c7ce50-ae53-433b-b704-739bfe4374df",
+      "comment": "",
+      "command": "click",
+      "target": "id=Bulk Billing Options for Customers",
+      "targets": [
+        ["id=Bulk Billing Options for Customers", "id"],
+        ["name=Bulk Billing Options for Customers", "name"],
+        ["css=#Bulk\\ Billing\\ Options\\ for\\ Customers", "css:finder"],
+        ["xpath=//select[@id='Bulk Billing Options for Customers']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[5]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1081ba43-01e7-4d3e-8f61-7aaedaf9eae1",
+      "comment": "",
+      "command": "select",
+      "target": "id=Bulk Billing Options for Customers",
+      "targets": [],
+      "value": "No"
+    }, {
+      "id": "22ed775b-5022-42f9-a408-4dde34298542",
+      "comment": "",
+      "command": "click",
+      "target": "id=Preferred Pathology Provider",
+      "targets": [
+        ["id=Preferred Pathology Provider", "id"],
+        ["name=Preferred Pathology Provider", "name"],
+        ["css=#Preferred\\ Pathology\\ Provider", "css:finder"],
+        ["xpath=//select[@id='Preferred Pathology Provider']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[6]/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85a5a5a1-cdf9-462b-9cab-427e1344c840",
+      "comment": "",
+      "command": "select",
+      "target": "id=Preferred Pathology Provider",
+      "targets": [],
+      "value": "Laverty"
+    }, {
+      "id": "8ef34644-67f5-4564-bdf0-b786f7c3bb76",
+      "comment": "",
+      "command": "click",
+      "target": "id=Allied Health Services",
+      "targets": [
+        ["id=Allied Health Services", "id"],
+        ["name=Allied Health Services", "name"],
+        ["css=#Allied\\ Health\\ Services", "css:finder"],
+        ["xpath=//select[@id='Allied Health Services']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[6]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76e53324-7ad8-4c31-aea7-e6c170e1927d",
+      "comment": "",
+      "command": "select",
+      "target": "id=Allied Health Services",
+      "targets": [],
+      "value": "Acupuncture"
+    }, {
+      "id": "33407d1f-5edf-460b-943a-174151404a33",
+      "comment": "",
+      "command": "click",
+      "target": "id=Mammogram Referrals",
+      "targets": [
+        ["id=Mammogram Referrals", "id"],
+        ["name=Mammogram Referrals", "name"],
+        ["css=#Mammogram\\ Referrals", "css:finder"],
+        ["xpath=//select[@id='Mammogram Referrals']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[7]/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[7]/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ede4f6a-868a-4167-8d88-231a34ea73e3",
+      "comment": "",
+      "command": "select",
+      "target": "id=Mammogram Referrals",
+      "targets": [],
+      "value": "Campsie Health Centre"
+    }, {
+      "id": "8dc527a6-4c57-4fe8-84a0-462aa6bdeacc",
+      "comment": "",
+      "command": "click",
+      "target": "id=Track ATSI Status",
+      "targets": [
+        ["id=Track ATSI Status", "id"],
+        ["name=Track ATSI Status", "name"],
+        ["css=#Track\\ ATSI\\ Status", "css:finder"],
+        ["xpath=//select[@id='Track ATSI Status']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[3]/div/form/ng-transclude/fieldset/div[7]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c67733a-aaed-4684-bbc4-c95ef3eae33b",
+      "comment": "",
+      "command": "select",
+      "target": "id=Track ATSI Status",
+      "targets": [],
+      "value": "Yes"
+    }, {
+      "id": "fd1e7d06-9c1a-4e5e-a544-48e0609567eb",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6940fbef-9fe6-4767-9808-11d3265c0bd7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wizard-btn-next",
+      "targets": [
+        ["css=.wizard-btn-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[4]/form/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "265fb75e-70d6-468b-ba92-fdb40d723cae",
+      "comment": "",
+      "command": "click",
+      "target": "id=QIP Accreditation",
+      "targets": [
+        ["id=QIP Accreditation", "id"],
+        ["name=QIP Accreditation", "name"],
+        ["css=#QIP\\ Accreditation", "css:finder"],
+        ["xpath=//select[@id='QIP Accreditation']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[3]/div/wizard-steps/wizard-step[4]/div/form/ng-transclude/fieldset/div/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//wizard-step[4]/div/form/ng-transclude/fieldset/div/div/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d542830c-1380-4210-9a08-5e52b6f5a195",
+      "comment": "",
+      "command": "select",
+      "target": "id=QIP Accreditation",
+      "targets": [],
+      "value": "No"
+    }, {
+      "id": "492743cb-d495-4589-aa21-6c22a989e366",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group > #QIPAccreditationExpiryDate",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f042ce1e-aa20-442c-9155-a0eaf50f1a1f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.input-group > #QIPAccreditationExpiryDate",
+      "targets": [],
+      "value": "25/11/2025"
+    }, {
+      "id": "971fab26-1d62-41ad-b126-f4694ffc5118",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wizard-btn-submit",
+      "targets": [
+        ["css=.wizard-btn-submit", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/census-ap-wizard/div/wizard/div/div[4]/form/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c431dc29-e619-40fa-adac-878d05f12ee9",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0902720-bffb-4f12-a7a9-688be419f0c3",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=//fieldset",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d090b8d3-0d5b-41a7-972b-725eb34acf39",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["20d676eb-9632-4e8c-b6a1-cf2c247920b2"]
+  }],
+  "urls": ["https://eishealth--dev--c.cs115.visual.force.com/apex/Census"],
+  "plugins": []
+}
