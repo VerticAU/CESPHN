@@ -1,0 +1,169 @@
+{
+  "id": "a6488b78-aac3-4961-a9d2-c5452b3a0360",
+  "version": "2.0",
+  "name": "Service Directory",
+  "url": "https://eishealth--dev--c.cs115.visual.force.com/apex/servicedirectory",
+  "tests": [{
+    "id": "9a7766f6-88df-4c6e-9c2b-a8a8c6a84ee3",
+    "name": "Professionals",
+    "commands": [{
+      "id": "089b695a-b42a-4ff4-8db9-c7a2bcff27fa",
+      "comment": "",
+      "command": "open",
+      "target": "https://dev-cesphn.cs115.force.com/apex/servicedirectory",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92784974-04e1-4a14-8257-2f34ccb6fc2a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Professional Type",
+      "targets": [
+        ["id=Professional Type", "id"],
+        ["name=Professional Type", "name"],
+        ["css=#Professional\\ Type", "css:finder"],
+        ["xpath=//select[@id='Professional Type']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50455c43-4c2e-42cb-8721-7d259341f1d1",
+      "comment": "",
+      "command": "select",
+      "target": "id=Professional Type",
+      "targets": [],
+      "value": "Allied Health Provider - Medicare Approved"
+    }, {
+      "id": "10b8fb1e-cf76-448e-968a-9d4f61933217",
+      "comment": "",
+      "command": "//select",
+      "target": "id=Category",
+      "targets": [],
+      "value": "Pharmacist"
+    }, {
+      "id": "c98411f1-3086-412a-8790-26b092f082f1",
+      "comment": "",
+      "command": "//type",
+      "target": "id=Location",
+      "targets": [],
+      "value": "2350"
+    }, {
+      "id": "995cd7da-c53b-40f9-a8f9-a915985ffa3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-cy2an",
+      "targets": [
+        ["css=.btn-cy2an", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3e397aa-6cd4-413b-b8a6-2e55d061c16b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//form/div/div[2]",
+      "targets": [
+        ["css=.row:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[3]", "xpath:idRelative"],
+        ["xpath=//form/div/div[3]", "xpath:position"]
+      ],
+      "value": "20000"
+    }]
+  }, {
+    "id": "8d9ad364-dfcd-4608-adc3-c9a077edef4b",
+    "name": "Practices",
+    "commands": [{
+      "id": "9d9c3d64-3336-4d1e-a818-e87ff056b52d",
+      "comment": "",
+      "command": "open",
+      "target": "https://dev-cesphn.cs115.force.com/apex/servicedirectory",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa579103-4418-420a-8540-5cb9d6b5c70a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Type",
+      "targets": [
+        ["id=Type", "id"],
+        ["name=Type", "name"],
+        ["css=#Type", "css:finder"],
+        ["xpath=//select[@id='Type']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb56874c-4bc0-4094-90ac-eb9fa1c3451d",
+      "comment": "",
+      "command": "select",
+      "target": "id=Type",
+      "targets": [],
+      "value": "Practices"
+    }, {
+      "id": "58ed9a7b-a410-4e56-8e3a-d41d237055e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=Professional Type",
+      "targets": [
+        ["id=Professional Type", "id"],
+        ["name=Professional Type", "name"],
+        ["css=#Professional\\ Type", "css:finder"],
+        ["xpath=//select[@id='Professional Type']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0fc3544-7757-4ec7-ad94-1a7ae15bad15",
+      "comment": "",
+      "command": "select",
+      "target": "id=Professional Type",
+      "targets": [],
+      "value": "Allied Health"
+    }, {
+      "id": "e615abae-71a2-4b6b-a1f3-3a84ac7f2910",
+      "comment": "",
+      "command": "//type",
+      "target": "id=Location",
+      "targets": [],
+      "value": "2350"
+    }, {
+      "id": "186364bb-f2bc-40cb-82ef-9352cd41142c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-cy2an",
+      "targets": [
+        ["css=.btn-cy2an", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div[5]/a", "xpath:idRelative"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf8d3484-3159-4e7a-8f35-a66cd4820f6a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//form/div/div[2]",
+      "targets": [
+        ["css=.row:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]", "xpath:position"]
+      ],
+      "value": "20000"
+    }]
+  }],
+  "suites": [{
+    "id": "7071f487-9a13-4b72-902d-deb7d9f0466b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9a7766f6-88df-4c6e-9c2b-a8a8c6a84ee3"]
+  }],
+  "urls": ["https://eishealth--dev--c.cs115.visual.force.com/apex/servicedirectory"],
+  "plugins": []
+}

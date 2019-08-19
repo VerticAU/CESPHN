@@ -1,0 +1,662 @@
+{
+  "id": "2c2f8102-c2f8-4495-b3fc-bef1e6340647",
+  "version": "2.0",
+  "name": "MembershipRenewal",
+  "url": "https://eishealth--dev--c.cs115.visual.force.com/apex/membershiprenewal",
+  "tests": [{
+    "id": "41dd82d9-987c-4a8a-aeae-6723e0a38db9",
+    "name": "Valid CC",
+    "commands": [{
+      "id": "69d387bc-934d-4283-acd4-a156b12f6514",
+      "comment": "",
+      "command": "open",
+      "target": "https://dev-cesphn.cs115.force.com/apex/servicedirectory",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40d028f4-aae9-484a-8504-2f909b9fc3a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=memberNumber",
+      "targets": [
+        ["id=memberNumber", "id"],
+        ["css=#memberNumber", "css:finder"],
+        ["xpath=//input[@id='memberNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad3d50a1-dc84-4cf9-82f8-099bffb116d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=memberNumber",
+      "targets": [
+        ["id=memberNumber", "id"],
+        ["css=#memberNumber", "css:finder"],
+        ["xpath=//input[@id='memberNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "201097"
+    }, {
+      "id": "eaf8b298-f5d7-4866-984e-37bdf4cf7838",
+      "comment": "",
+      "command": "click",
+      "target": "id=memberEmail",
+      "targets": [
+        ["id=memberEmail", "id"],
+        ["css=#memberEmail", "css:finder"],
+        ["xpath=//input[@id='memberEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div[2]/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05b2ea10-a676-4418-99eb-6f3b4f2a6852",
+      "comment": "",
+      "command": "type",
+      "target": "id=memberEmail",
+      "targets": [
+        ["id=memberEmail", "id"],
+        ["css=#memberEmail", "css:finder"],
+        ["xpath=//input[@id='memberEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div[2]/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "developer+selenium@vertic.com.au"
+    }, {
+      "id": "74f970e6-39a2-4636-b453-496e7e604edd",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07f99382-d924-47f3-9220-164cee3d950b",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": "4444 3333 2222 1111"
+    }, {
+      "id": "0c70c43b-4939-43a7-97c5-2e75c42ea57e",
+      "comment": "",
+      "command": "click",
+      "target": "id=customerName",
+      "targets": [
+        ["id=customerName", "id"],
+        ["css=#customerName", "css:finder"],
+        ["xpath=//input[@id='customerName']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62c761d5-fd52-4948-aabf-873548ffc458",
+      "comment": "",
+      "command": "type",
+      "target": "id=customerName",
+      "targets": [
+        ["id=customerName", "id"],
+        ["css=#customerName", "css:finder"],
+        ["xpath=//input[@id='customerName']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "e38504a1-c0fd-4908-8522-5fae99ebe841",
+      "comment": "",
+      "command": "click",
+      "target": "id=Expiry Month",
+      "targets": [
+        ["id=Expiry Month", "id"],
+        ["name=Expiry Month", "name"],
+        ["css=#Expiry\\ Month", "css:finder"],
+        ["xpath=//select[@id='Expiry Month']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3f34466-c305-4453-9298-3ef1e6fc47aa",
+      "comment": "",
+      "command": "select",
+      "target": "id=Expiry Month",
+      "targets": [],
+      "value": "06"
+    }, {
+      "id": "a345add2-3eec-4bf0-adc7-c384c10116d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=Expiry Year",
+      "targets": [
+        ["id=Expiry Year", "id"],
+        ["name=Expiry Year", "name"],
+        ["css=#Expiry\\ Year", "css:finder"],
+        ["xpath=//select[@id='Expiry Year']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[3]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0b6a67a-c52a-4218-9181-86b056661543",
+      "comment": "",
+      "command": "select",
+      "target": "id=Expiry Year",
+      "targets": [],
+      "value": "2032"
+    }, {
+      "id": "e186b5c7-3cc9-4b28-9576-55e5dd35d529",
+      "comment": "",
+      "command": "click",
+      "target": "id=CVN",
+      "targets": [
+        ["id=CVN", "id"],
+        ["css=#CVN", "css:finder"],
+        ["xpath=//input[@id='CVN']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[4]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48ccf7db-fd1c-4db2-9514-bda04141be05",
+      "comment": "",
+      "command": "type",
+      "target": "id=CVN",
+      "targets": [
+        ["id=CVN", "id"],
+        ["css=#CVN", "css:finder"],
+        ["xpath=//input[@id='CVN']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[4]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "2511fa77-c2e7-4c9a-9ccf-af6a00d7670c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rsform-submit-button",
+      "targets": [
+        ["css=.rsform-submit-button", "css:finder"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[12]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c78337c8-2b14-4f08-b131-a69ce9b0d190",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6e4c1ed-e2e3-4edc-89da-8d5829c9c602",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.toast-success",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "f62959ac-8b4b-4571-9bda-a5b9206a136d",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "0",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f6f4a0cb-2da5-493b-9ee3-92e6e1bfe1e6",
+    "name": "Invalid CC",
+    "commands": [{
+      "id": "561f3f07-d258-49cf-b378-332b39ef957a",
+      "comment": "",
+      "command": "open",
+      "target": "https://dev-cesphn.cs115.force.com/apex/servicedirectory",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b144ca04-cee5-4668-b4e0-871a2c90b229",
+      "comment": "",
+      "command": "click",
+      "target": "id=memberNumber",
+      "targets": [
+        ["id=memberNumber", "id"],
+        ["css=#memberNumber", "css:finder"],
+        ["xpath=//input[@id='memberNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5799e753-aeb6-400a-9f32-cb8f0a807498",
+      "comment": "",
+      "command": "type",
+      "target": "id=memberNumber",
+      "targets": [
+        ["id=memberNumber", "id"],
+        ["css=#memberNumber", "css:finder"],
+        ["xpath=//input[@id='memberNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "201097"
+    }, {
+      "id": "5650ce20-6f7e-4bfa-b9c1-6f90f319e85d",
+      "comment": "",
+      "command": "click",
+      "target": "id=memberEmail",
+      "targets": [
+        ["id=memberEmail", "id"],
+        ["css=#memberEmail", "css:finder"],
+        ["xpath=//input[@id='memberEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div[2]/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a69123e-a545-477f-b377-f0064f39fd37",
+      "comment": "",
+      "command": "type",
+      "target": "id=memberEmail",
+      "targets": [
+        ["id=memberEmail", "id"],
+        ["css=#memberEmail", "css:finder"],
+        ["xpath=//input[@id='memberEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div[2]/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "developer+selenium@vertic.com.au"
+    }, {
+      "id": "251a4df8-75ee-4cc4-8b11-432912301a15",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85fc4324-5302-4af7-ac04-759305d831ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": "4444444444444444"
+    }, {
+      "id": "dfeddc03-40a6-4379-a457-98d1f8368d81",
+      "comment": "",
+      "command": "click",
+      "target": "id=customerName",
+      "targets": [
+        ["id=customerName", "id"],
+        ["css=#customerName", "css:finder"],
+        ["xpath=//input[@id='customerName']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d722dd68-e878-468c-a81a-22b14e0169e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=customerName",
+      "targets": [
+        ["id=customerName", "id"],
+        ["css=#customerName", "css:finder"],
+        ["xpath=//input[@id='customerName']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "22e73cb2-80ed-4d78-9ba8-60e0a5e2fb69",
+      "comment": "",
+      "command": "click",
+      "target": "id=Expiry Month",
+      "targets": [
+        ["id=Expiry Month", "id"],
+        ["name=Expiry Month", "name"],
+        ["css=#Expiry\\ Month", "css:finder"],
+        ["xpath=//select[@id='Expiry Month']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "415f5628-c7d0-4f6b-b2de-ca5c4f2ff5f5",
+      "comment": "",
+      "command": "select",
+      "target": "id=Expiry Month",
+      "targets": [],
+      "value": "06"
+    }, {
+      "id": "da0f8e2d-89d2-453f-aaaf-78bb3be42389",
+      "comment": "",
+      "command": "click",
+      "target": "id=Expiry Year",
+      "targets": [
+        ["id=Expiry Year", "id"],
+        ["name=Expiry Year", "name"],
+        ["css=#Expiry\\ Year", "css:finder"],
+        ["xpath=//select[@id='Expiry Year']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[3]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ee745bd-ea6b-4b69-9c95-491c0f856f13",
+      "comment": "",
+      "command": "select",
+      "target": "id=Expiry Year",
+      "targets": [],
+      "value": "2032"
+    }, {
+      "id": "67a3bc17-2e88-4170-9de5-461dc05093ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=CVN",
+      "targets": [
+        ["id=CVN", "id"],
+        ["css=#CVN", "css:finder"],
+        ["xpath=//input[@id='CVN']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[4]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89861dea-b28c-46d3-bc4b-d66e523d1f02",
+      "comment": "",
+      "command": "type",
+      "target": "id=CVN",
+      "targets": [
+        ["id=CVN", "id"],
+        ["css=#CVN", "css:finder"],
+        ["xpath=//input[@id='CVN']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[4]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "b3c3147c-9f2b-407f-abb1-48d2fc2ce3e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rsform-submit-button",
+      "targets": [
+        ["css=.rsform-submit-button", "css:finder"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[12]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5d5e806-7bcc-4d0b-8691-746f54e00bc8",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "533739dd-6586-445d-adb4-8b907566d34b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.toast-error",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "99739028-3084-4937-af90-0f9f587080c0",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "0",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "583f8482-cc2c-4ae4-a103-37fd5d2f5dd4",
+    "name": "Expired CC",
+    "commands": [{
+      "id": "dc2292cf-cda2-4452-a9ad-f57bc3f02d1e",
+      "comment": "",
+      "command": "open",
+      "target": "https://dev-cesphn.cs115.force.com/apex/servicedirectory",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5565d94c-2ad0-4d67-bc30-bf2d7fc64c3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=memberNumber",
+      "targets": [
+        ["id=memberNumber", "id"],
+        ["css=#memberNumber", "css:finder"],
+        ["xpath=//input[@id='memberNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3416ef9d-32fb-49db-9e1a-5d0e93e47888",
+      "comment": "",
+      "command": "type",
+      "target": "id=memberNumber",
+      "targets": [
+        ["id=memberNumber", "id"],
+        ["css=#memberNumber", "css:finder"],
+        ["xpath=//input[@id='memberNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "201097"
+    }, {
+      "id": "5bc9607e-b9dc-4844-b128-345d5e66baf2",
+      "comment": "",
+      "command": "click",
+      "target": "id=memberEmail",
+      "targets": [
+        ["id=memberEmail", "id"],
+        ["css=#memberEmail", "css:finder"],
+        ["xpath=//input[@id='memberEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div[2]/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3562395-0823-42d8-9bc5-f924098a5b8d",
+      "comment": "",
+      "command": "type",
+      "target": "id=memberEmail",
+      "targets": [
+        ["id=memberEmail", "id"],
+        ["css=#memberEmail", "css:finder"],
+        ["xpath=//input[@id='memberEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div/div[2]/form-group/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/input", "xpath:position"]
+      ],
+      "value": "developer+selenium@vertic.com.au"
+    }, {
+      "id": "db7ca4b1-b3eb-4630-8bbb-d39a934f5205",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ae23b56-7f7b-4ccf-b243-b42bb33f5480",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//payment-information/div/div/div/div[2]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": "4444 3333 2222 1111"
+    }, {
+      "id": "dd9c1b15-3771-46f5-a7bb-77d0cb565a98",
+      "comment": "",
+      "command": "click",
+      "target": "id=customerName",
+      "targets": [
+        ["id=customerName", "id"],
+        ["css=#customerName", "css:finder"],
+        ["xpath=//input[@id='customerName']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2f45bb7-e7dd-4006-abcd-ca8fce162fba",
+      "comment": "",
+      "command": "type",
+      "target": "id=customerName",
+      "targets": [
+        ["id=customerName", "id"],
+        ["css=#customerName", "css:finder"],
+        ["xpath=//input[@id='customerName']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "c6cd5e51-b270-4d84-835f-edbde28070f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=Expiry Month",
+      "targets": [
+        ["id=Expiry Month", "id"],
+        ["name=Expiry Month", "name"],
+        ["css=#Expiry\\ Month", "css:finder"],
+        ["xpath=//select[@id='Expiry Month']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[2]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7b48fb1-8eca-4e78-a4d1-a839ab36dac7",
+      "comment": "",
+      "command": "select",
+      "target": "id=Expiry Month",
+      "targets": [],
+      "value": "01"
+    }, {
+      "id": "867c9c1b-0fc7-408e-8b64-70e08af17891",
+      "comment": "",
+      "command": "click",
+      "target": "id=Expiry Year",
+      "targets": [
+        ["id=Expiry Year", "id"],
+        ["name=Expiry Year", "name"],
+        ["css=#Expiry\\ Year", "css:finder"],
+        ["xpath=//select[@id='Expiry Year']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[3]/form-group/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/form-group/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59be106e-ae00-4242-9283-57c8d843d931",
+      "comment": "",
+      "command": "select",
+      "target": "id=Expiry Year",
+      "targets": [],
+      "value": "2019"
+    }, {
+      "id": "ab009233-3e16-4985-9d4a-eb50fe907bc0",
+      "comment": "",
+      "command": "click",
+      "target": "id=CVN",
+      "targets": [
+        ["id=CVN", "id"],
+        ["css=#CVN", "css:finder"],
+        ["xpath=//input[@id='CVN']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[4]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "039e1f26-d3bd-4676-9d8b-240680c44d4a",
+      "comment": "",
+      "command": "type",
+      "target": "id=CVN",
+      "targets": [
+        ["id=CVN", "id"],
+        ["css=#CVN", "css:finder"],
+        ["xpath=//input[@id='CVN']", "xpath:attributes"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[11]/payment-information/div/div/div[2]/div[4]/form-group/div/div/div/group-input/input", "xpath:idRelative"],
+        ["xpath=//div[4]/form-group/div/div/div/group-input/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "71425cd5-d9d1-4af0-b46c-6ec54f088030",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rsform-submit-button",
+      "targets": [
+        ["css=.rsform-submit-button", "css:finder"],
+        ["xpath=//div[@id='rsform_3_page_0']/div[2]/div[3]/div[12]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a48f1709-7633-4e2c-81b7-d7ff3d09ea78",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "7000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24e818c1-a0ce-42a8-89df-6a50e723f977",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.toast-error",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "cb78dc0c-0576-4c93-beca-42a927f2e1b4",
+      "comment": "",
+      "command": "setSpeed",
+      "target": "0",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "deeb101d-a74a-4af0-b23f-2c8d166e3a6e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["41dd82d9-987c-4a8a-aeae-6723e0a38db9"]
+  }],
+  "urls": ["https://eishealth--dev--c.cs115.visual.force.com/apex/membershiprenewal"],
+  "plugins": []
+}
