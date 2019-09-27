@@ -76,6 +76,6 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - selenium
     jobs:
       - bilder
