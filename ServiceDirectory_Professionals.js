@@ -18,9 +18,9 @@ describe('Professionals', function() {
     await driver.findElement(By.id("Professional Type")).click()
     {
       const dropdown = await driver.findElement(By.id("Professional Type"))
-      await dropdown.findElement(By.css("*[value='Allied Health Provider - Medicare Approved']")).click()
+      await dropdown.findElement(By.css("*[value='General Practitioner']")).click()
     }
     await driver.findElement(By.css(".btn-cy2an")).click()
-    await driver.wait(until.elementLocated(By.xpath("//form/div/div[2]")), 35000)
+    await driver.wait(until.elementLocated(By.xpath("//form[1]/div[1]/div[2]")), 35000)
   })
 })
