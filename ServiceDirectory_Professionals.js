@@ -3,7 +3,7 @@ const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
 
 describe('Professionals', function() {
-  this.timeout(30000)
+  this.timeout(80000)
   let driver
   let vars
   beforeEach(async function() {
@@ -21,6 +21,6 @@ describe('Professionals', function() {
       await dropdown.findElement(By.css("*[value='Allied Health Provider - Medicare Approved']")).click()
     }
     await driver.findElement(By.css(".btn-cy2an")).click()
-    await driver.wait(until.elementLocated(By.xpath("//form/div/div[2]")), 20000)
+    await driver.wait(until.elementLocated(By.xpath("//form/div/div[2]")), 35000)
   })
 })
